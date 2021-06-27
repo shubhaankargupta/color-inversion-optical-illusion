@@ -39,10 +39,11 @@ def make_gif():
             draw2.point((n, x), fill="yellow")
 
     frames.append(imgGray)
-
+    
+    duration = 240000/wbw
     frame_one = frames[0]
     frame_one.save("circle.gif", format="GIF", append_images=frames,
-                   save_all=True, duration=200, quality=70)
+                   save_all=True, duration=duration, quality=70)
 
 
 if __name__ == "__main__":
