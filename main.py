@@ -43,6 +43,6 @@ def make_gif(imgpath):
     frame_one.save("circle.gif", format="GIF", append_images=frames,
                    save_all=True, duration=duration, quality=70)
 
-imgpath = '/Users/guptashubhankar06/Desktop/nature-forest-trees-macro-wallpaper.jpeg'
+imgpath = 'imgpath.jpeg'
 if __name__ == "__main__":
     make_gif(imgpath)
