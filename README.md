@@ -40,5 +40,5 @@ imgGray = img.convert('L')
 ![grey](https://user-images.githubusercontent.com/63454581/125088051-afb86b00-e0ea-11eb-8b28-2b2751d9e61e.jpeg)
 
 ## Step 3
-Add the loading bar and concatenate inverted the greyscale images
+Add the loading bar and concatenate inverted the greyscale images (press the file below to view the gif again)
 ![circle copy](https://user-images.githubusercontent.com/63454581/125088166-cbbc0c80-e0ea-11eb-96fb-caf22fb9a8d8.gif)
