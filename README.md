@@ -17,8 +17,8 @@ As shown and well described [here](https://t3hz0r.com/post/colour-afterimage-opt
 
 In the file main.py, we present a fully automated method to produce this illusion using PILLOW.
 
-![WhatsApp Image 2021-07-09 at 6 39 47 PM](https://user-images.githubusercontent.com/63454581/125087880-81d32680-e0ea-11eb-8516-5b1446f77941.jpeg)
-
+**Click the file below to view the gif**
+![final gif](https://user-images.githubusercontent.com/63454581/125088166-cbbc0c80-e0ea-11eb-96fb-caf22fb9a8d8.gif)
 
 ## Install the following dependancies to get started:
 ```
