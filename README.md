@@ -13,14 +13,14 @@ Then:
 2. Value of final Blue = 255-Y
 3. Value of final Green = 255-Z
 ```
-As shown and well described [here](https://t3hz0r.com/post/colour-afterimage-optical-illusion-tutorial/), we noticed that an illusion is produced by consistently showing the viewer a chromatic-inverted image and suddenly flashing the image in greyscale. This gives the viewer an illusion of seeing the real image, which was never shown to him/her. The code adds textures to the image so that the illusion is more effective and a loading bar which self-caliberates to each image's dimensions. **To use the illusion, stare at the black dot until the progress bar finishes - at which point the image should give the *perception* of being colored.**
+As shown and well described [here](https://t3hz0r.com/post/colour-afterimage-optical-illusion-tutorial/), we noticed that an illusion is produced by consistently showing the viewer a chromatic-inverted image and suddenly flashing the image in greyscale. This gives the viewer an illusion of seeing the real image, which was never shown to him/her. The code adds textures to the image so that the illusion is more effective and a loading bar that self-calibrates each image's dimensions. **To use the illusion, stare at the black dot until the progress bar finishes - at which point the image should give the *perception* of being colored.**
 
 In the file main.py, we present a fully automated method to produce this illusion using PILLOW.
 
 **Click the file below to view the gif**
 ![final gif](https://user-images.githubusercontent.com/63454581/125088166-cbbc0c80-e0ea-11eb-96fb-caf22fb9a8d8.gif)
 
-## Install the following dependancies to get started:
+## Install the following dependencies to get started:
 ```
 from PIL import Image, ImageOps, ImageDraw
 ```
