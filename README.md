@@ -1,7 +1,7 @@
 # Color Inversion Optical Illusion
 
 
-As shown and well described [here](https://t3hz0r.com/post/colour-afterimage-optical-illusion-tutorial/), we noticed that an illusion is produced by consistently showing the viewer a chromatic-inverted image and suddenly flashing the image in greyscale. This gives the viewer an illusion of seeing the real image, which was never shown to him/her. The code adds textures to the image so that the illusion is more effective and a loading bar that self-calibrates each image's dimensions. **To use the illusion, stare at the black dot until the progress bar finishes - at which point the image should give the *perception* of being colored.**
+As shown and well described [here](https://t3hz0r.com/post/colour-afterimage-optical-illusion-tutorial/), we noticed that an illusion is produced by consistently showing the viewer a chromatic-inverted image and suddenly flashing the image in greyscale. This gives the viewers an illusion of seeing the real image, which was never shown to them. The code adds textures to the image so that the illusion is more effective and a loading bar that self-calibrates each image's dimensions. **To use the illusion, stare at the black dot until the progress bar finishes - at which point the image should give the *perception* of being colored.**
 
 In the file main.py, we present a fully automated method to produce this illusion using PILLOW.
 
