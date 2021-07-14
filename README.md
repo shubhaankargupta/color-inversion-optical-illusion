@@ -6,7 +6,7 @@ As shown and well described [here](https://t3hz0r.com/post/colour-afterimage-opt
 In the file main.py, we present a fully automated method to produce this illusion using PILLOW.
 
 **Click the file below to view the gif**
-![final gif](https://user-images.githubusercontent.com/63454581/125088166-cbbc0c80-e0ea-11eb-96fb-caf22fb9a8d8.gif)
+![circle](https://user-images.githubusercontent.com/63454581/125639418-34f18742-1044-4e7a-b859-da626c8426dc.gif)
 
 ## Install the following dependencies to get started:
 ```
@@ -41,5 +41,5 @@ imgGray = img.convert('L')
 ![grey](https://user-images.githubusercontent.com/63454581/125088051-afb86b00-e0ea-11eb-8b28-2b2751d9e61e.jpeg)
 
 ## Step 3
-Add the loading bar and concatenate inverted the greyscale images (press the file below to view the gif again)
-![circle copy](https://user-images.githubusercontent.com/63454581/125088166-cbbc0c80-e0ea-11eb-96fb-caf22fb9a8d8.gif)
+Add the loading bar and concatenate inverted the greyscale images!
+![circle](https://user-images.githubusercontent.com/63454581/125639418-34f18742-1044-4e7a-b859-da626c8426dc.gif)
