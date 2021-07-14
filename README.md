@@ -1,18 +1,6 @@
 # Color Inversion Optical Illusion
 
 
-Color inversion, as the name suggests, is the process of inverting the RGB values of an image, an array of pixels.
-```
-If:
-1. Value of initial Red = X
-2. Value of initial Blue = Y
-3. Value of initial Green = Z
-
-Then:
-1. Value of final Red = 255-X
-2. Value of final Blue = 255-Y
-3. Value of final Green = 255-Z
-```
 As shown and well described [here](https://t3hz0r.com/post/colour-afterimage-optical-illusion-tutorial/), we noticed that an illusion is produced by consistently showing the viewer a chromatic-inverted image and suddenly flashing the image in greyscale. This gives the viewer an illusion of seeing the real image, which was never shown to him/her. The code adds textures to the image so that the illusion is more effective and a loading bar that self-calibrates each image's dimensions. **To use the illusion, stare at the black dot until the progress bar finishes - at which point the image should give the *perception* of being colored.**
 
 In the file main.py, we present a fully automated method to produce this illusion using PILLOW.
@@ -27,6 +15,19 @@ from PIL import Image, ImageOps, ImageDraw
 
 ## Step 1
 Invert the colors of the image
+
+Color inversion, as the name suggests, is the process of inverting the RGB values of an image, an array of pixels.
+```
+If:
+1. Value of initial Red = X
+2. Value of initial Blue = Y
+3. Value of initial Green = Z
+
+Then:
+1. Value of final Red = 255-X
+2. Value of final Blue = 255-Y
+3. Value of final Green = 255-Z
+```
 ```
 inverted = ImageOps.invert(img)
 ```
