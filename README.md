@@ -6,7 +6,7 @@ As shown and well described [here](https://t3hz0r.com/post/colour-afterimage-opt
 To fully automate this process, we present a project made using PILLOW. It can be accessed in the file `main.py` to run in IDEs or `color_inversion_optical_illusion.ipynb` which provides an interactive method to upload files and receive the illusion.
 
 **Click the file below to view the gif**
-![circle](https://user-images.githubusercontent.com/63454581/125639418-34f18742-1044-4e7a-b859-da626c8426dc.gif)
+![circle](images/illusion.gif)
 
 ## Install the following dependencies to get started:
 ```
@@ -31,15 +31,15 @@ Then:
 ```
 inverted = ImageOps.invert(img)
 ```
-![inverted](https://user-images.githubusercontent.com/63454581/125088078-b2b35b80-e0ea-11eb-853f-a7f9ecc4ddda.jpeg)
+![inverted](images/inverted.jpeg)
 
 ## Step 2
 Convert the image to greyscale
 ```
 imgGray = img.convert('L')
 ```
-![grey](https://user-images.githubusercontent.com/63454581/125088051-afb86b00-e0ea-11eb-8b28-2b2751d9e61e.jpeg)
+![grey](images/grey.jpeg)
 
 ## Step 3
 Add the loading bar and concatenate inverted the greyscale images!
-![circle](https://user-images.githubusercontent.com/63454581/125639418-34f18742-1044-4e7a-b859-da626c8426dc.gif)
+![circle](images/illusion.gif)
