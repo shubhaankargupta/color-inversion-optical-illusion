@@ -1,3 +1,27 @@
+'''
+MIT License
+
+Copyright (c) 2021 Shubhaankar Gupta
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+'''
+
 #importing dependancies
 from PIL import Image, ImageOps, ImageDraw
 
@@ -42,8 +66,8 @@ def make_gif(imgpath):
 
     duration = 240000/wbw
     frame_one = frames[0]
-    frame_one.save("circle.gif", format="GIF", append_images=frames,
-                   save_all=True, duration=duration, quality=70)
+    frame_one.save("illusion.gif", format="GIF", append_images=frames,
+                   save_all=True, duration=duration, quality=70, loop = 0)
 
 imgpath = 'imgpath' #enter image path
 
